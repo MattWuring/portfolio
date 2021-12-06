@@ -4,5 +4,5 @@ body::-webkit-scrollbar {
 
 body{
   -ms-overflow-style: hidden;
-  scrollbar-width: hidden;
+  scrollbar-width: none;
 }
