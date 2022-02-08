@@ -1,8 +1,0 @@
-body::-webkit-scrollbar {
-  display: none;
-}
-
-body{
-  -ms-overflow-style: hidden;
-  scrollbar-width: none;
-}
