@@ -1,0 +1,58 @@
+#welcome{
+    height: 920px;
+
+    .test{
+        background-color: $accentColor2;
+        position: absolute;
+        top: 70px;
+        z-index: -1;
+    }
+
+    #title{
+        z-index: 3;
+        h1{
+            font-size: 70px;
+        }
+    }
+
+        #navbar{
+            background-color: $backgroundColor;
+            color: $textColor;
+            height: 70px;
+            display: flex;
+            top: 0;
+        
+            .navbar-items{
+                .right{
+                    float: right;
+                    margin-top: 20px;
+    
+                    a{
+                        color: inherit;
+                        padding-left: 20px;
+                        font-size: 24px;
+                        text-decoration: none;
+                    }
+                }
+                
+                .left{
+                    float: left;
+                    font-size: 24px;
+                }
+            }
+        }
+    
+        #title{
+            margin-top: 350px;
+    
+            p{
+                margin: 0;
+                font-size: 24px;
+            }
+    
+            h1{
+                margin: 0;
+            }
+        }
+    
+}

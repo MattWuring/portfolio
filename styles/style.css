@@ -1,0 +1,239 @@
+body {
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #141414;
+  font-family: raleway, system-ui;
+  font-weight: 800;
+  overflow-x: hidden;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #141414;
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #F5F5F5;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid #141414;
+  /* creates padding around scroll thumb */
+}
+
+#welcome {
+  height: 920px;
+}
+
+#welcome .test {
+  background-color: #00868B;
+  position: absolute;
+  top: 70px;
+  z-index: -1;
+}
+
+#welcome #title {
+  z-index: 3;
+}
+
+#welcome #title h1 {
+  font-size: 70px;
+}
+
+#welcome #navbar {
+  background-color: #141414;
+  color: #F5F5F5;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+}
+
+#welcome #navbar .navbar-items .right {
+  float: right;
+  margin-top: 20px;
+}
+
+#welcome #navbar .navbar-items .right a {
+  color: inherit;
+  padding-left: 20px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+#welcome #navbar .navbar-items .left {
+  float: left;
+  font-size: 24px;
+}
+
+#welcome #title {
+  margin-top: 350px;
+}
+
+#welcome #title p {
+  margin: 0;
+  font-size: 24px;
+}
+
+#welcome #title h1 {
+  margin: 0;
+}
+
+#showcase {
+  height: 730px;
+  background-color: #141414;
+}
+
+#showcase .arrow {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+#showcase .arrow .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#showcase .arrow .left #arrow1 {
+  background-color: #141414;
+  position: relative;
+  top: -35px;
+  height: 50px;
+  width: 70vw;
+}
+
+#showcase .arrow .left #arrow2 {
+  background-color: #141414;
+  position: relative;
+  top: -25px;
+  height: 50px;
+  width: 50px;
+  left: -25px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#showcase .arrow .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#showcase .arrow .right #arrow3 {
+  background-color: #141414;
+  position: relative;
+  top: -25px;
+  height: 50px;
+  width: 50px;
+  right: 5px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#showcase .arrow .right #arrow4 {
+  background-color: #141414;
+  position: relative;
+  top: -35px;
+  height: 50px;
+  width: 25.75vw;
+  right: 30px;
+}
+
+#showcase .showcase {
+  margin-top: 5px;
+  position: relative;
+  color: #F5F5F5;
+}
+
+#showcase .showcase .Slides .cards {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#showcase .showcase .Slides .cards .card {
+  color: #141414;
+  margin-right: 163px;
+  height: 600px;
+  width: 400px;
+  background-color: #F5F5F5;
+  border-radius: 15px 15px 15px 15px;
+}
+
+#showcase .showcase .Slides .cards .card .top {
+  top: 0;
+  width: 400px;
+  height: 400px;
+  background-color: #F5F5F5;
+  border-radius: 15px 15px 0px 0px;
+}
+
+#showcase .showcase .Slides .cards .card .top img {
+  border-radius: 15px 15px 0px 0px;
+}
+
+#showcase .showcase .Slides .cards .card .top .filter {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  z-index: 2;
+}
+
+#showcase .showcase .Slides .cards .card .bottom {
+  width: 400px;
+  height: 200px;
+}
+
+#showcase .showcase .Slides .card:hover .top .filter {
+  background-color: #14141470;
+}
+
+#showcase .prev, #showcase .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#showcase .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+#aboutMe {
+  height: 1000px;
+  background-color: #F5F5F5;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+@import '_variables.scss';
+
+body{
+    // background: linear-gradient(158deg, rgba(235,12,49,1) 15%, rgba(245,56,60,1) 37%, rgba(250,78,66,1) 56%, rgba(255,99,71,1) 75%, rgba(255,113,88,1) 100%);
+    background-color: $textColor;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $backgroundColor;
+    font-family: raleway, system-ui;
+    font-weight: 800;
+
+    overflow-x: hidden;
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: $backgroundColor;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: $textColor;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid $backgroundColor;  /* creates padding around scroll thumb */
+}
+
+
+@import './welcome';
+@import './showcase';
+@import './aboutme';
