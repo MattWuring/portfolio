@@ -39,13 +39,6 @@ body::-webkit-scrollbar-thumb {
   height: 920px;
 }
 
-#welcome .test {
-  background-color: #00868B;
-  position: absolute;
-  top: 70px;
-  z-index: -1;
-}
-
 #welcome #title {
   z-index: 3;
 }
@@ -82,7 +75,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #welcome #title {
-  margin-top: 350px;
+  margin-top: 200px;
 }
 
 #welcome #title p {
@@ -92,6 +85,10 @@ body::-webkit-scrollbar-thumb {
 
 #welcome #title h1 {
   margin: 0;
+}
+
+#welcome #title img {
+  margin-top: 140px;
 }
 
 #showcase {
