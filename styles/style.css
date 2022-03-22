@@ -93,7 +93,10 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   top: 70px;
   right: 0;
-  height: 88vh;
+  width: 51%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #welcome #title .image1 {
