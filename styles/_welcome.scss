@@ -9,6 +9,7 @@
 
     .navbar-items{
         .right{
+            display: flex;
             float: right;
             margin-top: 20px;
 
@@ -30,6 +31,22 @@
     }
 }
 
+@media only screen and (max-width: 900px){
+    .right-normal{
+        display: none;
+    }
+
+    .right-alt{
+        display: true;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .right-alt{
+        display: none;
+    }
+}
+
 #welcome{    
         #title{
             color: $textColor;
@@ -40,11 +57,9 @@
                 margin-top: 30vh;
                 p{
                     margin: 0;
-                    font-size: 22px;
                 }
         
                 h1{
-                    font-size: 70px;
                     margin: 0;
                 }
             }
@@ -110,3 +125,27 @@
          max-width: 100%;
      }
  }
+
+ @media only screen and (max-width: 570px){
+    .text{
+        p{
+            font-size: 18px;
+        }
+
+        h1{
+            font-size: 40px;
+        }
+    }
+}
+
+@media only screen and (min-width: 570px){
+    .text{
+        p{
+            font-size: 22px;
+        }
+
+        h1{
+            font-size: 70px;
+        }
+    }
+}
