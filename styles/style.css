@@ -70,17 +70,17 @@ body::-webkit-scrollbar-thumb {
 
 #welcome #title {
   color: #F5F5F5;
-  height: 565px;
+  height: 58vh;
 }
 
 #welcome #title .text {
   z-index: 2;
-  margin-top: 300px;
+  margin-top: 30vh;
 }
 
 #welcome #title .text p {
   margin: 0;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 #welcome #title .text h1 {
@@ -121,7 +121,10 @@ body::-webkit-scrollbar-thumb {
     visibility: hidden;
   }
   .text {
-    max-width: 500px;
+    max-width: 600px;
+  }
+  .text p {
+    font-size: 20px;
   }
 }
 
@@ -134,6 +137,9 @@ body::-webkit-scrollbar-thumb {
   }
   body {
     background-color: #141414;
+  }
+  .text {
+    max-width: 100%;
   }
 }
 

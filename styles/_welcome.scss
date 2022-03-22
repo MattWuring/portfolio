@@ -33,14 +33,14 @@
 #welcome{    
         #title{
             color: $textColor;
-            height: 565px;  
+            height: 58vh;  
     
             .text{
                 z-index: 2;
-                margin-top: 300px;
+                margin-top: 30vh;
                 p{
                     margin: 0;
-                    font-size: 24px;
+                    font-size: 22px;
                 }
         
                 h1{
@@ -84,7 +84,10 @@
     }
 
     .text{
-        max-width: 500px;
+        max-width: 600px;
+        p{
+            font-size: 20px;
+        }
     }
  }
 
@@ -98,5 +101,9 @@
 
      body{
          background-color: $backgroundColor;
+     }
+     
+     .text{
+         max-width: 100%;
      }
  }
