@@ -1,0 +1,30 @@
+#projects-experiments{
+
+    #projects{
+        #title{
+            background-color: $textColor;
+            .title{
+                font-size: 90px;
+            }
+        }
+
+        #cards{
+            background-color: $backgroundColor;
+            height: 1000px;
+        }
+    }
+
+    #experiments{
+        #title{
+            background-color: $textColor;
+            .title{
+                font-size: 90px;
+            }
+        }
+
+        #cards{
+            background-color: $backgroundColor;
+            height: 1000px;
+        }
+    }
+}
