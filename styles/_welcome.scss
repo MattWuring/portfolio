@@ -19,7 +19,18 @@
                 font-size: 24px;
                 text-decoration: none;
             }
+
+            .right-alt{
+                button{
+                    color: $textColor;
+                    background-color: $backgroundColor;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
         }
+
+
         
         .left{
             float: left;
@@ -44,6 +55,37 @@
 @media only screen and (min-width: 900px){
     .right-alt{
         display: none;
+    }
+
+    #toggle-navbar{
+        display: none;
+    }
+}
+
+#toggle-navbar{
+    display: none;
+    background-color: $textColor;
+    height: 170px;
+
+    a{
+        color: $backgroundColor;
+        font-size: 24px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .links{
+        a{
+            padding-top: 20px;
+        }
+
+        .last{
+            a{
+                margin-top: 10px;
+                padding-top: 10px;
+                border-top: 1px solid;
+            }
+        }
     }
 }
 
@@ -133,7 +175,7 @@
         }
 
         h1{
-            font-size: 40px;
+            font-size: 45px;
         }
     }
 }

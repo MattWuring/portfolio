@@ -26,3 +26,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+function navbar(){
+  var x = document.getElementById("toggle-navbar");
+  if (x.style.display === "block") {
+      x.style.display = "none";
+  } else {
+      x.style.display = "block";
+  }
+}

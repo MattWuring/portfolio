@@ -63,6 +63,13 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
 }
 
+#navbar .navbar-items .right .right-alt button {
+  color: #F5F5F5;
+  background-color: #141414;
+  border: none;
+  cursor: pointer;
+}
+
 #navbar .navbar-items .left {
   float: left;
   font-size: 24px;
@@ -84,6 +91,32 @@ body::-webkit-scrollbar-thumb {
   .right-alt {
     display: none;
   }
+  #toggle-navbar {
+    display: none;
+  }
+}
+
+#toggle-navbar {
+  display: none;
+  background-color: #F5F5F5;
+  height: 170px;
+}
+
+#toggle-navbar a {
+  color: #141414;
+  font-size: 24px;
+  text-decoration: none;
+  display: block;
+}
+
+#toggle-navbar .links a {
+  padding-top: 20px;
+}
+
+#toggle-navbar .links .last a {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid;
 }
 
 #welcome #title {
@@ -168,7 +201,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 18px;
   }
   .text h1 {
-    font-size: 40px;
+    font-size: 45px;
   }
 }
 
