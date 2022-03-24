@@ -1,6 +1,6 @@
 #showcase{
-    height: 730px;
     background-color: $backgroundColor;
+    height: 1150px;
 
     .arrow{
         height: 50px;
@@ -52,73 +52,60 @@
         }
     }
 
-    .showcase{
-        margin-top: 5px;
-        position: relative;
+    h1{
         color: $textColor;
+    }
 
-        .Slides {
-            .cards{
-                height: 600px;
-                display: flex;
-                .card{ 
-                    color: $backgroundColor;
-                    margin-right: 163px;
-                    height: 600px;
-                    width: 400px;
-                    background-color: $textColor;
-                    border-radius: 15px 15px 15px 15px;
-                    .top{
-                        top: 0;
-                        width: 400px;
-                        height: 400px;
-                        background-color: $textColor;
-                        border-radius: 15px 15px 0px 0px;
-                        img{
-                            border-radius: 15px 15px 0px 0px;
-                        }
+    .cards{
+        display: grid;
+        grid-gap: 5vh;
+        .card{ 
+            height: 300px;
+            width: 100%;
 
-                        .filter{
-                            position: absolute;
-                            width: 400px;
-                            height: 400px;
-                            z-index: 2;
-                        }
-                    }
-                    .bottom{
-                        width: 400px;
-                        height: 200px;
-                    }
-                }
-            }
-
-            .card:hover{
-                .top{
-                    .filter{
-                        background-color: $filter;
-                    }
-                }
+            img{
+                object-fit: cover;
+                height: 300px;
+                width: 100%;
+                border-radius: 15px 15px 15px 15px;
             }
         }
     }
+}
 
-    .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        margin-top: -22px;
-        padding: 16px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
+@media (min-width: 1020px) {
+    #showcase{
+        height: 1150px;
     }
+    .cards { grid-template-columns: repeat(2, 1fr); }
+}
 
-    .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
+@media (max-width: 1020px){
+    #showcase{
+        #img4{
+            display: none;
+        }
+
+        #img5{
+            display: none;
+        }
+
+        #img6{
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 1600px) {
+    #showcase{
+        height: 820px;
+    }
+    .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+.card:hover{
+
+    img{
+        opacity: 30%;
     }
 }

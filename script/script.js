@@ -35,3 +35,7 @@ function navbar(){
       x.style.display = "block";
   }
 }
+
+// if (window.matchMedia("(min-width: 900px)").matches) {
+//   document.getElementById("toggle-navbar").style.display = "none";
+// }

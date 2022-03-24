@@ -52,18 +52,11 @@
     }
 }
 
-@media only screen and (min-width: 900px){
-    .right-alt{
-        display: none;
-    }
-
-    #toggle-navbar{
-        display: none;
-    }
-}
-
 #toggle-navbar{
     display: none;
+    position: absolute;
+    width: 100%;
+    top: 70px;
     background-color: $textColor;
     height: 170px;
 
@@ -88,6 +81,17 @@
         }
     }
 }
+
+@media only screen and (min-width: 900px){
+    .right-alt{
+        display: none;
+    }
+
+    #toggle-navbar{
+        display: none;
+    }
+}
+
 
 #welcome{    
         #title{

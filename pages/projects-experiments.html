@@ -10,16 +10,31 @@
     </head>
 <body>
 
-    <section id="welcome">
-        <div id="navbar">
-            <div class="container">
-                <div class="navbar-items">
-                    <a href="../index.html" class="left">MATT WURING</a>
-                    <div class="right">
-                        <a href="projects-experiments.html">EXPERIMENTS</a>
-                        <a href="projects-experiments.html">PROJECTS</a>
+    <section id="navbar">
+        <div class="container">
+            <div class="navbar-items">
+                <a href="../index.html" class="left">MATT WURING</a>
+                <div class="right">
+                    <div class="right-normal">
+                        <a href="#experiments">EXPERIMENTS</a>
+                        <a href="#projects">PROJECTS</a>
                         <a href="">CONTACT</a>
                     </div>
+                    <div class="right-alt">
+                        <button onclick="navbar()"><i class="fa-solid fa-bars fa-2x"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="toggle-navbar">
+        <div class="container">
+            <div class="links">
+                <a href="#experiments">EXPERIMENTS</a>
+                <div class="last">
+                    <a href="#projects">PROJECTS</a>
+                    <a href="">CONTACT</a>
                 </div>
             </div>
         </div>
@@ -56,6 +71,6 @@
     </section>
     
     <script src="https://kit.fontawesome.com/701aa16d7f.js" crossorigin="anonymous"></script>
-    <script src="./script/script.js" type="text/javascript"></script>
+    <script src="../script/script.js" type="text/javascript"></script>
 </body>
 </html>
