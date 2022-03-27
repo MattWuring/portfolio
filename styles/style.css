@@ -320,13 +320,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 1020px) {
-  #showcase #img4 {
+  #showcase #img4, #showcase #img5, #showcase #img6 {
     display: none;
   }
-  #showcase #img5 {
-    display: none;
-  }
-  #showcase #img6 {
+  #showcase #arrow1, #showcase #arrow2, #showcase #arrow3, #showcase #arrow4 {
     display: none;
   }
 }
