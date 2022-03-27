@@ -59,15 +59,26 @@
     .cards{
         display: grid;
         grid-gap: 5vh;
+
         .card{ 
             height: 300px;
             width: 100%;
-
-            img{
-                object-fit: cover;
-                height: 300px;
+            
+            button{
+                border-style: none;
+                border-radius: 5px;
                 width: 100%;
-                border-radius: 15px 15px 15px 15px;
+                height: 300px;
+                padding: 0;
+                cursor: pointer;
+                background-color: $backgroundColor;
+
+                img{
+                    object-fit: cover;
+                    height: 300px;
+                    width: 100%;
+                    border-radius: 5px;
+                }
             }
         }
     }
@@ -106,6 +117,6 @@
 .card:hover{
 
     img{
-        opacity: 30%;
+        opacity: 40%;
     }
 }

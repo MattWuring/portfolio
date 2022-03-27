@@ -21,18 +21,18 @@ body{
 }
 
 body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
+  width: 12px;
 }
 body::-webkit-scrollbar-track {
-  background: $backgroundColor;        /* color of the tracking area */
+  background: $backgroundColor;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: $textColor;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid $backgroundColor;  /* creates padding around scroll thumb */
+  background-color: $textColor;
+  border-radius: 20px;
+  border: 3px solid $backgroundColor;
 }
 
-
+@import './navbar';
 @import './welcome';
 @import './showcase';
 @import './aboutme';
