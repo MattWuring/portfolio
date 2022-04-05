@@ -1,4 +1,31 @@
 #aboutMe{
-    height: 1000px;
-    background-color: $textColor;
+    padding-top: 50px;
+    background-color:   white;
+
+    height: 700px;
+
+    h1{
+        font-size: 50px;
+    }
+
+    .aboutme{
+        width: 47.5%;
+
+        .aboutme-body{
+            padding-right: 5%;
+        }
+    }
+
+    filter: drop-shadow(0px 30px 20px $backgroundColor)
+}
+
+#image{
+    height: 250px;
+    background-color: $backgroundColor;
+    width: 100vw;
+    img{
+        height: 250px;
+        width: 100vw;
+        object-fit: cover;
+    }
 }

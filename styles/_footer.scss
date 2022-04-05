@@ -1,0 +1,13 @@
+#footer{
+    height: 100px;
+    background-color: $backgroundColor;
+
+    display: grid;
+    justify-content: center;
+
+    h3{
+        margin: 0;
+        margin-top: 35px;
+        color: $textColor;
+    }
+}

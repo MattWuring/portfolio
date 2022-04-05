@@ -1,0 +1,42 @@
+#modal{
+    visibility: hidden;
+
+    .background{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        z-index: 4;
+        opacity: 80%;
+        background-color: $backgroundColor;
+    }
+
+    .modal{
+        z-index: 5;
+        position: fixed;
+        height: 80vh;
+        width: 80vw;
+        top: 10vh;
+        left: 10vw;
+        background-color: white;
+        opacity: 100%;
+
+        .wrapper{
+            padding-top: 100px;
+            display: flex;
+            
+            .modal-left{
+                width: 70%;
+                padding-right: 50px;
+
+                #modal-title{
+                    font-size: 50px;
+                }
+            }
+
+            .modal-right{
+                width: 30%;
+            }
+        }
+    }
+}

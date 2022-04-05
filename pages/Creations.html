@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&amp;family=Raleway:wght@100;600;800&amp;display=swap" rel="stylesheet">
+        <link href="../styles/style.css" rel="stylesheet">
+        <title>Portfolio</title>
+    </head>
+<body onload="modalClose()">
+
+    <section id="navbar">
+        <div class="container">
+            <div class="navbar-items">
+                <a href="../index.html" class="left">MATT WURING</a>
+                <div class="right">
+                    <div class="right-normal">
+                        <a href="./Creations.html">CREATIONS</a>
+                        <a href="../index.html#aboutMe">ABOUT ME</a>
+                        <a href="../index.html#contact">CONTACT</a>
+                    </div>
+                    <div class="right-alt">
+                        <button onclick="navbar()"><i class="fa-solid fa-bars fa-2x"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="toggle-navbar">
+            <div class="container">
+                <div class="links">
+                    <a href="./Creations.html">CREATIONS</a>
+                    <div class="last">
+                        <a href="">ABOUT ME</a>
+                        <a href="">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="projects-experiments">
+        <div class="projects">
+            <div class="projects-title">
+                <div class="container">
+                    <h1>Projects</h1>
+                </div>
+            </div>
+            <div class="projects-body">
+                <div class="container">
+                    <div class="cards" id="grid1">
+                        <div class="card">
+                            <button onclick="modalOpen(0)"><img src="../pictures/dataSphere.png" alt="" id="img0"></button>
+                        </div>
+                
+                        <div class="card">
+                            <button onclick="modalOpen(1)"><img src="https://picsum.photos/400/300" alt="" id="img2"></button>
+                        </div>
+                
+                        <div class="card">
+                            <button onclick="modalOpen(2)"><img src="https://picsum.photos/400/300" alt="" id="img3"></button>
+                        </div>
+        
+                        <div class="card">
+                            <button onclick="modalOpen(3)"><img src="https://picsum.photos/400/300" alt="" id="img4"></button>
+                        </div>
+                
+                        <div class="card">
+                            <button onclick="modalOpen(4)"><img src="https://picsum.photos/400/300" alt="" id="img5"></button>
+                        </div>
+                
+                        <div class="card">
+                            <button onclick="modalOpen(5)"><img src="https://picsum.photos/400/300" alt="" id="img6"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="experiments">
+            <div class="experiments-title">
+                <div class="container">
+                    <h1>Experiments</h1>
+                </div>
+            </div>
+            <div class="experiments-body">
+                <div class="container">
+                    <div class="cards" id="grid1">
+                        <div class="card">
+                            <button onclick="modalOpen(6)"><img src="https://picsum.photos/400/300" alt="" id="img1"></button>
+                        </div>
+                
+                        <div class="card">
+                            <button onclick="modalOpen(7)"><img src="https://picsum.photos/400/300" alt="" id="img2"></button>
+                        </div>
+                
+                        <div class="card">
+                            <button onclick="modalOpen(8)"><img src="https://picsum.photos/400/300" alt="" id="img3"></button>
+                        </div>
+        
+                        <div class="card">
+                            <button onclick="modalOpen(9)"><img src="https://picsum.photos/400/300" alt="" id="img4"></button>
+                        </div>
+                
+                        <div class="card">
+                            <button onclick="modalOpen(10)"><img src="https://picsum.photos/400/300" alt="" id="img5"></button>
+                        </div>
+                
+                        <div class="card">
+                            <button onclick="modalOpen(11)"><img src="https://picsum.photos/400/300" alt="" id="img6"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="modal">
+        <div class="modal">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="modal-left">
+                        <h1 id="modal-title">DATA SPHERE</h1>
+                        <p id="modal-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione est vitae consequatur ab quae eius rem, natus dolor officia harum, nesciunt aspernatur a possimus dicta deserunt vero placeat, tempora voluptatem! Assumenda modi unde odit rerum cum. Maiores sint dolore excepturi tempore consequatur recusandae nostrum commodi distinctio, fuga vero necessitatibus reiciendis eveniet beatae molestiae quos voluptatibus cumque rem facilis quo nisi veniam! Illum ipsam eius minus quibusdam temporibus quo nulla sapiente?</p>
+                    </div>
+                    <div class="modal-right">
+                        <img src="https://picsum.photos/450/600" alt="" id="modal-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="background" onclick="modalClose()"></div>
+    </section>
+    
+    <script src="https://kit.fontawesome.com/701aa16d7f.js" crossorigin="anonymous"></script>
+    <script src="../script/script.js" type="text/javascript"></script>
+</body>
+</html>

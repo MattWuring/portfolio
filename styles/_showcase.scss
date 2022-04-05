@@ -86,7 +86,7 @@
 
 @media (min-width: 1020px) {
     #showcase{
-        height: 1150px;
+        height: 800px;
     }
     .cards { grid-template-columns: repeat(2, 1fr); }
 }
@@ -105,7 +105,7 @@
 
 @media (min-width: 1600px) {
     #showcase{
-        height: 820px;
+        height: 475px;
     }
     .cards { grid-template-columns: repeat(3, 1fr); }
 }

@@ -1,0 +1,52 @@
+#contact{
+    height: 500px;
+    background-color: white;
+    filter: drop-shadow(0px -30px 20px $backgroundColor);
+
+    .wrapper{
+        display: flex;
+        padding-top: 120px;
+
+        .image{
+            width: 50%;
+
+            img{
+                position: relative;
+                top: -70px;
+                left: 5vw;
+                width: 600px;
+            }
+        }
+    
+        .contact{
+            width: 50%;
+
+            .contact-body{
+                height: 200px;
+    
+                .link{
+                    display: flex;
+    
+                    p{
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                    }
+
+                    a{
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                        text-decoration: none;
+                        color: $backgroundColor;
+                    }
+    
+                    .name{
+                        width: 25%;
+                    }
+                    .answer{
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+}
