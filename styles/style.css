@@ -370,7 +370,7 @@ body::-webkit-scrollbar-thumb {
 
 #image img {
   height: 250px;
-  width: 100vw;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -493,6 +493,10 @@ body::-webkit-scrollbar-thumb {
 
 #modal .modal .wrapper .modal-right {
   width: 30%;
+}
+
+#modal .modal .wrapper .modal-right #modal-image {
+  width: 450px;
 }
 
 #projects-experiments {
